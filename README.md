@@ -6,6 +6,11 @@ Under-Eye AI is an experimental computer-vision project designed to analyze
 under-eye regions from facial images using facial landmarks, brightness
 measurements, image-quality assessment, and multi-image comparison.
 
+
+## Dashboard Preview
+
+![Under-Eye AI Dashboard](assets/dashboard.png)
+
 ## Project Overview
 
 The system processes facial images through the following pipeline:
