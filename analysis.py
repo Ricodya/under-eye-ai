@@ -1,3 +1,4 @@
+from pathlib import Path
 import cv2
 import numpy as np
 import mediapipe as mp
@@ -9,7 +10,7 @@ from mediapipe.tasks.python import vision
 # MEDIAPIPE FACE LANDMARKER
 # ============================================================
 
-MODEL_PATH = "assets/face_landmarker.task"
+MODEL_PATH = str(Path(__file__).parent / "assets" / "face_landmarker.task")
 
 _base_options = python.BaseOptions(
     model_asset_path=MODEL_PATH
