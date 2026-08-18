@@ -1,0 +1,7 @@
+gradio
+mediapipe
+opencv-python
+numpy
+pandas
+matplotlib
+Pillow
